@@ -1,4 +1,4 @@
-package jp.thisptr.dataset;
+package net.thisptr.dataset;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,10 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
-import jp.thisptr.encoder.bean.annotation.EncodableBeans;
-import jp.thisptr.encoder.bean.annotation.EncodeWith;
-import jp.thisptr.encoder.bean.attribute.NominalAttributeEncoder;
-import jp.thisptr.util.IOEnumerators;
+import net.thisptr.encoder.bean.annotation.EncodableBeans;
+import net.thisptr.encoder.bean.annotation.EncodeWith;
+import net.thisptr.encoder.bean.attribute.NominalAttributeEncoder;
+import net.thisptr.util.IOEnumerators;
 
 
 /**
